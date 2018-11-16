@@ -49,13 +49,15 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Nome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editRG" />
 
     <EditText
         android:id="@+id/editEndereço"
@@ -151,6 +153,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="60dp"
+        android:onClick="voltar"
         android:text="Voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btSalvar"
@@ -163,6 +166,7 @@
         android:layout_marginBottom="4dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
+        android:onClick="salvar"
         android:text="Salvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
