@@ -40,7 +40,7 @@
         app:layout_constraintGuide_begin="15dp" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/cli_nome"
         android:layout_width="335dp"
         android:layout_height="47dp"
         android:layout_marginStart="16dp"
@@ -67,10 +67,10 @@
         android:layout_marginTop="20dp"
         android:text="CPF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+        app:layout_constraintTop_toBottomOf="@+id/cli_nome" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/cli_cpf"
         android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -90,7 +90,7 @@
         android:layout_marginTop="20dp"
         android:text="RG"
         app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+        app:layout_constraintTop_toBottomOf="@+id/cli_nome" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline6"
@@ -100,7 +100,7 @@
         app:layout_constraintGuide_begin="192dp" />
 
     <EditText
-        android:id="@+id/editText10"
+        android:id="@+id/cli_rg"
         android:layout_width="161dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -108,7 +108,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toEndOf="@+id/editText9"
+        app:layout_constraintStart_toEndOf="@+id/cli_cpf"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
@@ -120,10 +120,10 @@
         android:layout_marginTop="20dp"
         android:text="CNH"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+        app:layout_constraintTop_toBottomOf="@+id/cli_cpf" />
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/cli_cnh"
         android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -135,7 +135,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <EditText
-        android:id="@+id/editText12"
+        android:id="@+id/cli_dep"
         android:layout_width="162dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -143,19 +143,19 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName|number"
-        app:layout_constraintStart_toEndOf="@+id/editText11"
+        app:layout_constraintStart_toEndOf="@+id/cli_cnh"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
         android:layout_marginTop="20dp"
         android:text="Dependentes"
-        app:layout_constraintStart_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toBottomOf="@+id/editText10" />
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/cli_rg" />
 
     <TextView
         android:id="@+id/textView15"
@@ -166,10 +166,10 @@
         android:layout_marginTop="20dp"
         android:text="Endereço"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText11" />
+        app:layout_constraintTop_toBottomOf="@+id/cli_cnh" />
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/cli_ender"
         android:layout_width="339dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -181,7 +181,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/cli_salva"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -197,7 +197,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/cli_cancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
