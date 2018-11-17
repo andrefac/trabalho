@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(MainActivity.this, locacao.class);
         startActivity(it);
     }
+
+    public void acCliente (View view){
+        Intent it = new Intent(MainActivity.this, cadastro_cliente.class);
+        startActivity(it);
+    }
 }
