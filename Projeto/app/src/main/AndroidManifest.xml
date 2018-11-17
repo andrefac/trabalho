@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CadastroCarro" />
-        <activity android:name=".CadastroFuncionario"></activity>
+        <activity android:name=".CadastroFuncionario" />
+        <activity android:name=".locacao"></activity>
     </application>
 
 </manifest>
