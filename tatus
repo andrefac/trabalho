@@ -1,0 +1,66 @@
+[33mcommit f7bd9703bc447a3027d28919372d0b63bbee91f6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: andref <andrefsalmeida@gmail.com>
+Date:   Fri Nov 16 19:52:55 2018 -0300
+
+    Criação banco de dados
+
+[33mcommit 6757eae1e13eece8eb6b158ec78acea0e8db9199[m
+Merge: f6fa55a adb7d1c
+Author: brunabertolo <bertolobruna@gmail.com>
+Date:   Fri Nov 9 21:36:57 2018 -0300
+
+    Merge branch 'master' of https://github.com/andrefac/trabalho
+
+[33mcommit adb7d1cc1333fedae6c10ca2049b36952c0f6665[m
+Merge: ea8dd5a 38c7256
+Author: CassiaSotolani <ca.sotolani@gmail.com>
+Date:   Fri Nov 9 21:33:15 2018 -0300
+
+    Merge branch 'master' of https://github.com/andrefac/trabalho
+
+[33mcommit f6fa55a0db58b3300d8b3bd53010cb0afc41f32f[m
+Merge: 2b02f58 38c7256
+Author: Bruna Eduarda Bertolo <BrunaB@lab.unigran>
+Date:   Fri Nov 9 21:29:52 2018 -0300
+
+    resolveu o conflito
+
+[33mcommit 2b02f58d7890498e06189c5962f397cedde12135[m
+Author: Bruna Eduarda Bertolo <BrunaB@lab.unigran>
+Date:   Fri Nov 9 21:27:16 2018 -0300
+
+    cadastro de carro
+
+[33mcommit ea8dd5a6c6063e372b9abd58ce534fbec1a193ae[m
+Author: CassiaSotolani <ca.sotolani@gmail.com>
+Date:   Fri Nov 9 21:26:34 2018 -0300
+
+    wdf
+    wdf
+    wdf
+    eruiperuieruieruieruieruieruieruieruieruieruieruieruieruieruicm xbçmn
+    vlçb..wq
+
+[33mcommit 38c72565672b2bdbc900ecba41d10aac65e29d6e[m
+Author: andref <andrefsalmeida@gmail.com>
+Date:   Fri Nov 9 21:10:44 2018 -0300
+
+    Criei classe db
+
+[33mcommit e7e58c84c7ac2160562ce0b7ac942588e2612498[m
+Author: CassiaSotolani <ca.sotolani@gmail.com>
+Date:   Fri Nov 9 21:03:40 2018 -0300
+
+    Fiz a tela inicial
+
+[33mcommit 66811728430c3b023ae88d6269068c4af9df79b3[m
+Author: Andre Felipe de Almeida Castro <AndreF@lab.unigran>
+Date:   Fri Nov 9 20:14:50 2018 -0300
+
+    Configurando Git Ignore
+
+[33mcommit 56f4833436fbd0ee1afc5c3409d7668c7dfa2e32[m
+Author: Bruna Eduarda Bertolo <BrunaB@lab.unigran>
+Date:   Fri Nov 9 19:57:48 2018 -0300
+
+    Primeiro Commit
