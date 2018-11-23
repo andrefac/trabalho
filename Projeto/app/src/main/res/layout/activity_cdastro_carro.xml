@@ -6,128 +6,149 @@
     android:layout_height="match_parent"
     tools:context=".CadastroCarro">
 
-    <Button
-        android:id="@+id/btVoltar"
+    <TextView
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="44dp"
-        android:layout_marginEnd="160dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="160dp"
-        android:layout_marginStart="8dp"
-        android:onClick="voltar"
-        android:text="Voltar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btSalvar"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btSalvar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="44dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:onClick="salvar"
-        android:text="Salvar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <EditText
-        android:id="@+id/editPlaca"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:ems="10"
-        android:hint="Placa"
-        android:inputType="textCapSentences|textPersonName"
+        android:layout_marginEnd="176dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="29dp"
+        android:text="Cadastro de Carro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editMarca"
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
         android:text="Marca"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editPlaca" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <EditText
-        android:id="@+id/editModelo"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/car_Marca"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="8dp"
         android:text="Modelo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editMarca" />
+        app:layout_constraintTop_toBottomOf="@+id/car_Marca"
+        tools:layout_editor_absoluteX="16dp" />
 
     <EditText
-        android:id="@+id/editValorSeguro"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/car_Modelo"
+        android:layout_width="115dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Valor do Seguro"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editCor" />
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Placa"
+        app:layout_constraintTop_toBottomOf="@+id/car_Marca"
+        tools:layout_editor_absoluteX="182dp" />
 
     <EditText
-        android:id="@+id/editValorLocacao"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/car_Placa"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Valor da Locação"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Name"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        tools:layout_editor_absoluteX="182dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Valor Locação"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editValorSeguro" />
+        app:layout_constraintTop_toBottomOf="@+id/car_Modelo" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Valor Seguro"
+        app:layout_constraintTop_toBottomOf="@+id/car_Placa"
+        tools:layout_editor_absoluteX="182dp" />
 
     <EditText
-        android:id="@+id/editCor"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:id="@+id/car_Vlocacao"
+        android:layout_width="134dp"
+        android:layout_height="38dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Cor"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editModelo" />
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <EditText
+        android:id="@+id/car_Vseguro"
+        android:layout_width="140dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        tools:layout_editor_absoluteX="182dp" />
+
+    <Button
+        android:id="@+id/car_Salvar"
+        android:layout_width="86dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="SALVAR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_Vlocacao" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="95dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="CANCELAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_Vseguro" />
 
 </android.support.constraint.ConstraintLayout>
