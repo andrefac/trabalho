@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Tela Inicial</string>
+    <string name="app_name">Tela Locação</string>
     <string name="title_activity_cadastro_cliente">cadastro_cliente</string>
 </resources>
