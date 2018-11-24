@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(MainActivity.this, cadastro_cliente.class);
         startActivity(it);
     }
+
+    public void sair (View view){
+        finish();
+
+    }
 }
