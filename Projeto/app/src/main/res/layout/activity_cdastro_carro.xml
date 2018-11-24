@@ -69,10 +69,12 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="Placa"
-        app:layout_constraintTop_toBottomOf="@+id/car_Marca"
-        tools:layout_editor_absoluteX="182dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_Marca" />
 
     <EditText
         android:id="@+id/car_Placa"
@@ -102,10 +104,12 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="Valor Seguro"
-        app:layout_constraintTop_toBottomOf="@+id/car_Placa"
-        tools:layout_editor_absoluteX="182dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_Placa" />
 
     <EditText
         android:id="@+id/car_Vlocacao"
