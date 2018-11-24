@@ -35,12 +35,14 @@ public class CadastroCarro extends AppCompatActivity {
         vSeguro = findViewById(R.id.car_Vseguro);
     }
 
-    public void voltar (View view){
+    public void car_Cancelar (View view){
         finish();
     }
 
-    public void salvar (View view){
-        //finish();
+    public void car_Salvar (View view){
+
+        banco = new db_class(this);
+
         ent_carro carro = new ent_carro();
         carro.setMarca(marca.getText().toString());
         carro.setModelo(modelo.getText().toString());
