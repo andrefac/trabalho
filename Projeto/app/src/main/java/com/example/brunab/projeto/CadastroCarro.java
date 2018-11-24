@@ -36,11 +36,12 @@ public class CadastroCarro extends AppCompatActivity {
     }
 
     public void voltar (View view){
+
         finish();
     }
 
     public void salvar (View view){
-        //finish();
+
         ent_carro carro = new ent_carro();
         carro.setMarca(marca.getText().toString());
         carro.setModelo(modelo.getText().toString());
